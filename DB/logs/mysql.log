@@ -1,0 +1,11 @@
+mysqld, Version: 10.5.8-MariaDB-1:10.5.8+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+210218 16:52:38	     4 Connect	root@localhost on  using Socket
+		     4 Query	select @@version_comment limit 1
+210218 16:52:43	     4 Query	SELECT DATABASE()
+		     4 Init DB	pruebas
+		     4 Query	show databases
+		     4 Query	show tables
+		     4 Field List	prueba 
+210218 16:53:03	     4 Query	insert into prueba values(5, 'miguel')
