@@ -31,3 +31,509 @@ Version: '10.5.8-MariaDB-1:10.5.8+maria~focal-log'  socket: '/run/mysqld/mysqld.
 2021-02-18 17:00:30 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
 2021-02-18 17:00:30 0 [Note] mysqld: Shutdown complete
 
+2021-03-03 17:53:30 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:53:30 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:53:30 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:53:30 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:53:30 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:53:30 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:53:30 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:53:30 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:53:30 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:53:30 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:53:30 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:53:30 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:53:30 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:53:31 0 [Note] InnoDB: 10.5.8 started; log sequence number 49659; transaction id 52
+2021-03-03 17:53:31 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:53:31 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:53:31 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:53:31
+2021-03-03 17:53:31 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:53:31 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:53:31 0 [ERROR] Could not open log file
+2021-03-03 17:53:31 0 [ERROR] Can't init tc log
+2021-03-03 17:53:31 0 [ERROR] Aborting
+2021-03-03 17:53:33 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:53:33 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:53:33 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:53:33 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:53:33 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:53:33 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:53:33 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:53:33 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:53:33 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:53:33 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:53:33 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:53:33 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:53:34 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:53:34 0 [Note] InnoDB: 10.5.8 started; log sequence number 49687; transaction id 52
+2021-03-03 17:53:34 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:53:34 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:53:34 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:53:34
+2021-03-03 17:53:34 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:53:34 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:53:34 0 [ERROR] Could not open log file
+2021-03-03 17:53:34 0 [ERROR] Can't init tc log
+2021-03-03 17:53:34 0 [ERROR] Aborting
+2021-03-03 17:53:36 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:53:36 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:53:36 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:53:36 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:53:36 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:53:36 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:53:36 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:53:36 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:53:36 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:53:36 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:53:36 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:53:36 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:53:37 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:53:37 0 [Note] InnoDB: 10.5.8 started; log sequence number 49699; transaction id 52
+2021-03-03 17:53:37 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:53:37 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:53:37 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:53:37
+2021-03-03 17:53:37 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:53:37 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:53:37 0 [ERROR] Could not open log file
+2021-03-03 17:53:37 0 [ERROR] Can't init tc log
+2021-03-03 17:53:37 0 [ERROR] Aborting
+2021-03-03 17:53:39 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:53:39 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:53:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:53:39 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:53:39 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:53:39 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:53:39 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:53:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:53:39 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:53:39 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:53:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:53:39 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:53:40 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:53:40 0 [Note] InnoDB: 10.5.8 started; log sequence number 49711; transaction id 52
+2021-03-03 17:53:40 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:53:40 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:53:40 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:53:40
+2021-03-03 17:53:40 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:53:40 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:53:40 0 [ERROR] Could not open log file
+2021-03-03 17:53:40 0 [ERROR] Can't init tc log
+2021-03-03 17:53:40 0 [ERROR] Aborting
+2021-03-03 17:53:43 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:53:43 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:53:43 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:53:43 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:53:43 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:53:43 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:53:43 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:53:43 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:53:43 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:53:43 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:53:43 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:53:43 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:53:43 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:53:44 0 [Note] InnoDB: 10.5.8 started; log sequence number 49723; transaction id 52
+2021-03-03 17:53:44 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:53:44 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:53:44 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:53:44
+2021-03-03 17:53:44 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:53:44 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:53:44 0 [ERROR] Could not open log file
+2021-03-03 17:53:44 0 [ERROR] Can't init tc log
+2021-03-03 17:53:44 0 [ERROR] Aborting
+2021-03-03 17:53:47 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:53:47 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:53:47 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:53:47 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:53:47 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:53:47 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:53:47 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:53:47 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:53:47 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:53:47 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:53:47 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:53:47 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:53:48 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:53:48 0 [Note] InnoDB: 10.5.8 started; log sequence number 49735; transaction id 52
+2021-03-03 17:53:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:53:48 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:53:48 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:53:48
+2021-03-03 17:53:48 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:53:48 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:53:48 0 [ERROR] Could not open log file
+2021-03-03 17:53:48 0 [ERROR] Can't init tc log
+2021-03-03 17:53:48 0 [ERROR] Aborting
+2021-03-03 17:53:58 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:53:58 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:53:58 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:53:58 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:53:58 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:53:58 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:53:58 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:53:58 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:53:58 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:53:58 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:53:58 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:53:58 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:53:58 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:53:58 0 [Note] InnoDB: 10.5.8 started; log sequence number 49747; transaction id 52
+2021-03-03 17:53:58 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:53:58 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:53:58 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:53:58
+2021-03-03 17:53:58 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:53:58 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:53:58 0 [ERROR] Could not open log file
+2021-03-03 17:53:58 0 [ERROR] Can't init tc log
+2021-03-03 17:53:58 0 [ERROR] Aborting
+2021-03-03 17:54:01 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:54:01 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:54:01 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:54:01 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:54:01 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:54:01 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:54:01 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:54:01 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:54:01 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:54:01 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:54:01 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:54:01 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:54:01 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:54:01 0 [Note] InnoDB: 10.5.8 started; log sequence number 49759; transaction id 52
+2021-03-03 17:54:01 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:54:01 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:54:01 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:54:01
+2021-03-03 17:54:01 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:54:01 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:54:01 0 [ERROR] Could not open log file
+2021-03-03 17:54:01 0 [ERROR] Can't init tc log
+2021-03-03 17:54:01 0 [ERROR] Aborting
+2021-03-03 17:54:04 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:54:04 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:54:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:54:04 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:54:04 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:54:04 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:54:04 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:54:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:54:04 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:54:04 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:54:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:54:04 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:54:04 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:54:05 0 [Note] InnoDB: 10.5.8 started; log sequence number 49771; transaction id 52
+2021-03-03 17:54:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:54:05 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:54:05 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:54:05
+2021-03-03 17:54:05 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:54:05 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:54:05 0 [ERROR] Could not open log file
+2021-03-03 17:54:05 0 [ERROR] Can't init tc log
+2021-03-03 17:54:05 0 [ERROR] Aborting
+2021-03-03 17:54:07 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:54:07 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:54:07 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:54:07 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:54:07 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:54:07 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:54:07 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:54:07 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:54:07 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:54:07 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:54:07 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:54:07 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:54:08 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:54:08 0 [Note] InnoDB: 10.5.8 started; log sequence number 49783; transaction id 52
+2021-03-03 17:54:08 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:54:08 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:54:08 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:54:08
+2021-03-03 17:54:08 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:54:08 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:54:08 0 [ERROR] Could not open log file
+2021-03-03 17:54:08 0 [ERROR] Can't init tc log
+2021-03-03 17:54:08 0 [ERROR] Aborting
+2021-03-03 17:54:11 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:54:11 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:54:11 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:54:11 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:54:11 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:54:11 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:54:11 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:54:11 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:54:11 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:54:11 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:54:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:54:11 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:54:11 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:54:11 0 [Note] InnoDB: 10.5.8 started; log sequence number 49795; transaction id 52
+2021-03-03 17:54:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:54:11 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:54:11 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:54:11
+2021-03-03 17:54:11 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:54:11 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:54:11 0 [ERROR] Could not open log file
+2021-03-03 17:54:11 0 [ERROR] Can't init tc log
+2021-03-03 17:54:11 0 [ERROR] Aborting
+2021-03-03 17:54:15 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:54:15 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:54:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:54:15 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:54:15 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:54:15 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:54:15 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:54:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:54:15 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:54:15 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:54:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:54:15 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:54:16 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:54:16 0 [Note] InnoDB: 10.5.8 started; log sequence number 49807; transaction id 52
+2021-03-03 17:54:16 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:54:16 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:54:16 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:54:16
+2021-03-03 17:54:16 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:54:16 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:54:16 0 [ERROR] Could not open log file
+2021-03-03 17:54:16 0 [ERROR] Can't init tc log
+2021-03-03 17:54:16 0 [ERROR] Aborting
+2021-03-03 17:54:21 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:54:21 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:54:21 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:54:21 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:54:21 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:54:21 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:54:21 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:54:21 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:54:21 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:54:21 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:54:21 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:54:21 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:54:22 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:54:22 0 [Note] InnoDB: 10.5.8 started; log sequence number 49819; transaction id 52
+2021-03-03 17:54:22 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:54:22 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:54:22 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:54:22
+2021-03-03 17:54:22 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:54:22 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:54:22 0 [ERROR] Could not open log file
+2021-03-03 17:54:22 0 [ERROR] Can't init tc log
+2021-03-03 17:54:22 0 [ERROR] Aborting
+2021-03-03 17:54:30 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:54:30 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:54:30 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:54:30 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:54:30 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:54:30 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:54:30 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:54:30 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:54:30 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:54:31 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:54:31 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:54:31 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:54:31 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:54:31 0 [Note] InnoDB: 10.5.8 started; log sequence number 49831; transaction id 52
+2021-03-03 17:54:31 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:54:31 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:54:31 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:54:31
+2021-03-03 17:54:31 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:54:31 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:54:31 0 [ERROR] Could not open log file
+2021-03-03 17:54:31 0 [ERROR] Can't init tc log
+2021-03-03 17:54:31 0 [ERROR] Aborting
+2021-03-03 17:54:50 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:54:50 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:54:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:54:50 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:54:50 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:54:50 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:54:50 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:54:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:54:50 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:54:50 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:54:50 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:54:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:54:50 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:54:51 0 [Note] InnoDB: 10.5.8 started; log sequence number 49843; transaction id 52
+2021-03-03 17:54:51 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:54:51 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:54:51 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:54:51
+2021-03-03 17:54:51 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:54:51 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:54:51 0 [ERROR] Could not open log file
+2021-03-03 17:54:51 0 [ERROR] Can't init tc log
+2021-03-03 17:54:51 0 [ERROR] Aborting
+2021-03-03 17:54:53 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:54:53 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:54:53 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:54:53 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:54:53 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:54:53 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:54:53 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:54:53 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:54:53 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:54:53 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:54:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:54:53 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:54:54 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:54:54 0 [Note] InnoDB: 10.5.8 started; log sequence number 49855; transaction id 52
+2021-03-03 17:54:54 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:54:54 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:54:54 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:54:54
+2021-03-03 17:54:54 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:54:54 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:54:54 0 [ERROR] Could not open log file
+2021-03-03 17:54:54 0 [ERROR] Can't init tc log
+2021-03-03 17:54:54 0 [ERROR] Aborting
+2021-03-03 17:54:56 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:54:56 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:54:56 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:54:56 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:54:56 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:54:56 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:54:56 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:54:56 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:54:56 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:54:56 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:54:56 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:54:56 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:54:57 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:54:57 0 [Note] InnoDB: 10.5.8 started; log sequence number 49867; transaction id 52
+2021-03-03 17:54:57 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:54:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:54:57 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:54:57
+2021-03-03 17:54:57 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:54:57 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:54:57 0 [ERROR] Could not open log file
+2021-03-03 17:54:57 0 [ERROR] Can't init tc log
+2021-03-03 17:54:57 0 [ERROR] Aborting
+2021-03-03 17:54:59 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:54:59 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:54:59 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:54:59 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:54:59 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:54:59 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:54:59 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:54:59 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:54:59 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:54:59 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:54:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:54:59 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:55:00 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:55:00 0 [Note] InnoDB: 10.5.8 started; log sequence number 49879; transaction id 52
+2021-03-03 17:55:00 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:55:00 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:55:00 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:55:00
+2021-03-03 17:55:00 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:55:00 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:55:00 0 [ERROR] Could not open log file
+2021-03-03 17:55:00 0 [ERROR] Can't init tc log
+2021-03-03 17:55:00 0 [ERROR] Aborting
+2021-03-03 17:55:03 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:55:03 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:55:03 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:55:03 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:55:03 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:55:03 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:55:03 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:55:03 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:55:03 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:55:03 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:55:03 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:55:03 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:55:04 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:55:04 0 [Note] InnoDB: 10.5.8 started; log sequence number 49891; transaction id 52
+2021-03-03 17:55:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:55:04 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:55:04 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:55:04
+2021-03-03 17:55:04 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:55:04 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:55:04 0 [ERROR] Could not open log file
+2021-03-03 17:55:04 0 [ERROR] Can't init tc log
+2021-03-03 17:55:04 0 [ERROR] Aborting
+2021-03-03 17:55:07 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:55:07 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:55:07 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:55:07 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:55:07 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:55:07 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:55:07 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:55:07 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:55:07 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:55:07 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:55:07 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:55:07 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:55:08 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:55:08 0 [Note] InnoDB: 10.5.8 started; log sequence number 49903; transaction id 52
+2021-03-03 17:55:08 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:55:08 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:55:08 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:55:08
+2021-03-03 17:55:08 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:55:08 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:55:08 0 [ERROR] Could not open log file
+2021-03-03 17:55:08 0 [ERROR] Can't init tc log
+2021-03-03 17:55:08 0 [ERROR] Aborting
+2021-03-03 17:55:13 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:55:13 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:55:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:55:13 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:55:13 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:55:13 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:55:13 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:55:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:55:13 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:55:13 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:55:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:55:13 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:55:14 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:55:14 0 [Note] InnoDB: 10.5.8 started; log sequence number 49915; transaction id 52
+2021-03-03 17:55:14 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:55:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:55:14 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:55:14
+2021-03-03 17:55:14 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:55:14 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:55:14 0 [ERROR] Could not open log file
+2021-03-03 17:55:14 0 [ERROR] Can't init tc log
+2021-03-03 17:55:14 0 [ERROR] Aborting
+2021-03-03 17:55:22 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:55:22 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:55:22 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:55:22 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:55:22 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:55:22 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:55:22 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:55:22 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:55:22 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:55:22 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:55:22 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:55:22 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:55:23 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:55:23 0 [Note] InnoDB: 10.5.8 started; log sequence number 49927; transaction id 52
+2021-03-03 17:55:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:55:23 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:55:23 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:55:23
+2021-03-03 17:55:23 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:55:23 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:55:23 0 [ERROR] Could not open log file
+2021-03-03 17:55:23 0 [ERROR] Can't init tc log
+2021-03-03 17:55:23 0 [ERROR] Aborting
+2021-03-03 17:55:38 0 [Note] InnoDB: Using Linux native AIO
+2021-03-03 17:55:38 0 [Note] InnoDB: Uses event mutexes
+2021-03-03 17:55:38 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-03 17:55:38 0 [Note] InnoDB: Number of pools: 1
+2021-03-03 17:55:38 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-03 17:55:38 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-03 17:55:38 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-03 17:55:38 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-03 17:55:38 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-03 17:55:38 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-03 17:55:38 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-03 17:55:38 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-03 17:55:39 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-03 17:55:39 0 [Note] InnoDB: 10.5.8 started; log sequence number 49939; transaction id 52
+2021-03-03 17:55:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-03 17:55:39 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-03 17:55:39 0 [Note] InnoDB: Buffer pool(s) load completed at 210303 17:55:39
+2021-03-03 17:55:39 0 [ERROR] mysqld: File '/var/log/mysql/mysql-bin.000001' not found (Errcode: 2 "No such file or directory")
+2021-03-03 17:55:39 0 [ERROR] Failed to open log (file '/var/log/mysql/mysql-bin.000001', errno 2)
+2021-03-03 17:55:39 0 [ERROR] Could not open log file
+2021-03-03 17:55:39 0 [ERROR] Can't init tc log
+2021-03-03 17:55:39 0 [ERROR] Aborting

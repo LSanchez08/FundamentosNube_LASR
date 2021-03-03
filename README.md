@@ -1,2 +1,29 @@
 # FundamentosNube_LASR
 Luis Alberto Sánchez Rios - 15198633
+
+# Base de datos:
+Carpeta BD - contiene la carpeta de configuración, de archivos y de logs, de igual manera
+	         se encuentra el docker-compose.yml dentro.
+	Carpeta conf - Contiene el archivo my.cnf de MySQL.
+	Carpeta files - Contiene los schemas y archivos de información de MySQL.
+	Carpeta logs - Contiene los archivos de logs acerca de lo que se haya hecho o errores
+		       que hayan ocurrido.
+	docker-compose.yml - 
+			1. Se refiere a la versión del formato de nuestro archivo.
+			2. Salto de linea para indicar separación de conceptos.
+			3. Marcar donde esta iniciando la declaración de nuestros servicios.
+			4. Salto de linea para separar el inicio de nuestras definiciones. 
+			5. Nombre que le asignamos a nuestra base de datos y abrimos espacio para definir sus componentes (Tiene un espacio de identación debido a que pertenece a la sección de services).
+			6. Imagen para la base de datos en este caso se esta utilizando mariadb (Tiene dos espacios de identación debido a que pertenece a la sección de mydatabase).
+			7. Indica que el contenedor va a reiniciarse si se detiene, en caso de que se detenga de manera manual por el usuario, se reiniciara hasta que docker se vuelva a correr o se reinicie de manera manual (Tiene dos espacios de identación debido a que pertenece a la sección de mydatabase).
+			8. Inicia la sección para definir variables de entorno (Tiene dos espacios de identación debido a que pertenece a la sección de mydatabase).
+			9. Asignación de contraseña para el usuario root de la base de datos (Tiene tres espacios de identación debido a que pertenece a la sección de enviroment).
+			10. Creación de un schema default (Tiene tres espacios de identación debido a que pertenece a la sección de enviroment). 
+			11. Creación de un usuario para la conexión de MySQL (Tiene tres espacios de identación debido a que pertenece a la sección de enviroment).
+			12. Asignación de contraseña para el usuario de la basa de datos (Tiene tres espacios de identación debido a que pertenece a la sección de enviroment).
+			13. Inicia la sección para asignar el puerto que se va a utilizar (Tiene dos espacios de identación debido a que pertenece a la sección de mydatabase).
+			14. En la izquiera se ubica el puerto el cual nosotros asignamos y a la derecha se encuentra el puerto default (Tiene tres espacios de identación debido a que pertenece a la sección de ports).
+			15. Inicia la sección en la cual se vincularan las carpetas de los volumenes (Tiene dos espacios de identación debido a que pertenece a la sección de mydatabase).
+			16. Del lado izquierdo indicamos la carpeta local y del lado derecho de los 2 puntos indicamos la carpeta dentro del contenedor, en esta ocación queremos que nuestra carpeta files se sincronice con /var/lib/mysql/ dentro del contenedor (Tiene tres espacios de identación debido a que pertenece a la sección de volumes).
+			17. En este caso queremos que la carpeta logs se sinconice con la carpeta /var/log/mysql/ dentro de nuestro contenedor (Tiene tres espacios de identación debido a que pertenece a la sección de volumes).
+			18. En este ultimo caso, queremos que nuestra carpeta conf se sincronice con la carpeta /etc/mysql/conf.d/ dentro de nuestro contenedor (Tiene tres espacios de identación debido a que pertenece a la sección de volumes).
