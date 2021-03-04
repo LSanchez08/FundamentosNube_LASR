@@ -1,83 +1,83 @@
 # FundamentosNube_LASR
 Luis Alberto Sánchez Rios - 15198633
 
-# Base de datos:
-Carpeta BD - contiene la carpeta de configuración, de archivos y de logs, de igual manera
-             se encuentra el docker-compose.yml dentro.
-    Carpeta conf - Contiene el archivo my.cnf de MySQL.
+# Database:
+Folder BD - contains the folders conf for configuration, files and logs, it also contains the docker-compose.yml file.
+    Folder conf - contains the file my.cnf de MySQL.
 
-    Carpeta files - Contiene los schemas y archivos de información de MySQL.
+    Folder files - contains the data base schemas and MySQL info files.
 
-    Carpeta logs - Contiene los archivos de logs acerca de lo que se haya hecho o errores
-               que hayan ocurrido.
+    Folder logs - contains the log files about what has happened inside the database, from queries to errors that occured.
 
     docker-compose.yml - 
 
-            1. Se refiere a la versión del formato de nuestro archivo en este caso tenemos la versión 3.1, no todas las versiones son compatibles con todos los engines de docker.
+            1. Refers to the docker-compose format version, in this case we are using the version 3.1, not all versions of docker-compose are compatible with every docker engine version.
 
-            2. Salto de linea para indicar separación de conceptos.
+            2. Line skip just for separating.
 
-            3. Marcar donde esta iniciando la declaración de nuestros servicios.
+            3. Here begins the declaration of our services inside the container.
 
-            4. Salto de linea para separar el inicio de nuestras definiciones. 
+            4. Line skip just for separating. 
 
-            5. Nombre que le asignamos a nuestra base de datos y abrimos espacio para definir sus componentes (Tiene un espacio de identación debido a que pertenece a la sección de services).
+            5. Name given to our database and we open the space to define its components (One identation space due to it belonging to the services section).
 
-            6. Imagen para la base de datos que utilizara el contenedor, en este caso se esta utilizando mariadb (Tiene dos espacios de identación debido a que pertenece a la sección de mydatabase).
+            6. Image for the database we will be using in the conteiner, in this case we are using mariadb (Two identation spaces due to it belonging to the mydatabase section).
 
-            7. Indica que el contenedor va a reiniciarse si se detiene, en caso de que se detenga de manera manual por el usuario, se reiniciara hasta que docker se vuelva a correr o se reinicie de manera manual (Tiene dos espacios de identación debido a que pertenece a la sección de mydatabase).
+            7. Indicates that the container will restar in case of failing or restarting docker, if the user turns it off it won´t restart unless the user turns it back on or docker restarts (Two identation spaces due to it belonging to the mydatabase section).
 
-            8. Inicia la sección para definir variables de entorno (Tiene dos espacios de identación debido a que pertenece a la sección de mydatabase).
+            8. Here begins the declaration for our environment variables (Two identation spaces due to it belonging to the mydatabase section).
 
-            9. Asignación de contraseña para el usuario root de la base de datos (Tiene tres espacios de identación debido a que pertenece a la sección de enviroment).
+            9. Defining the password for the user root in our database (Three identation spaces due to it belonging to the environment section).
 
-            10. Creación de un schema default (Tiene tres espacios de identación debido a que pertenece a la sección de enviroment). 
+            10. Creation of a default schema (Three identation spaces due to it belonging to the environment section). 
 
-            11. Creación de un usuario para la conexión de MySQL (Tiene tres espacios de identación debido a que pertenece a la sección de enviroment).
+            11. Creation of a user for our MySQL conection (Three identation spaces due to it belonging to the environment section).
 
-            12. Asignación de contraseña para el usuario de la basa de datos (Tiene tres espacios de identación debido a que pertenece a la sección de enviroment).
+            12. Defining the passiword for the recently created user (Three identation spaces due to it belonging to the environment section).
 
-            13. Inicia la sección para asignar el puerto que se va a utilizar (Tiene dos espacios de identación debido a que pertenece a la sección de mydatabase).
+            13. Here begins the decalration of our container´s port (Two identation spaces due to it belonging to the mydatabase section).
 
-            14. En la izquiera se ubica el puerto del host y a la derecha se encuentra el puerto del contenedor (Tiene tres espacios de identación debido a que pertenece a la sección de ports).
+            14. In the left side we have the host´s port, and on the right side we have our containers port (Three identation spaces due to it belonging to the ports section).
 
-            15. Inicia la sección en la cual se vincularán las carpetas de los volumenes (Tiene dos espacios de identación debido a que pertenece a la sección de mydatabase).
+            15. Here begins the section in which we link the folders in our host with the ones in our container, which is called volumes (Two identation spaces due to it belonging to the mydatabase section).
 
-            16. Del lado izquierdo indicamos la carpeta local y del lado derecho de los 2 puntos indicamos la carpeta dentro del contenedor, en esta ocación queremos que nuestra carpeta files se sincronice con /var/lib/mysql/ dentro del contenedor (Tiene tres espacios de identación debido a que pertenece a la sección de volumes).
+            16. In the left side we define the local folder and from the colon to the right we have the folder inside our container. In this case we are synching our files folder with the folder /var/lib/mysql/ inside our container (Three identation spaces due to it belonging to the volumes section).
 
-            17. En este caso queremos que la carpeta logs se sinconice con la carpeta /var/log/mysql/ dentro de nuestro contenedor (Tiene tres espacios de identación debido a que pertenece a la sección de volumes).
+            17. In this case we want to sync the folder logs with the folder /var/log/mysql/ inside our container (Three identation spaces due to it belonging to the volumes section).
             
-            18. En este ultimo caso, queremos que nuestra carpeta conf se sincronice con la carpeta /etc/mysql/conf.d/ dentro de nuestro contenedor (Tiene tres espacios de identación debido a que pertenece a la sección de volumes).
+            18. In this las case, we want to sync our conf folder with the folder  /etc/mysql/conf.d/ inside our container (Three identation spaces due to it belonging to the volumes section).
 
-Descripción del contenedor: Contenedor con la imagen oficial de mariadb, es una variación de MySQL con pocos cambios a la estructura, sirve para no tener que instalar mariadb directamente de manera local, con el contenedor cada vez que queramos utilizar la base de datos, puede ser directamente desde la terminal que incluye, o puede se puede conectar directo a un gestor de base de datos.
+Container´s description: Container with the official image of mariadb, this container allows us to use mariadb without having to directly install it in our computer. Each time we want to use the database, all we have to do is run docker and the container, and now we can connect to it directly from our database manager.
 
 # WEB
-Carpeta web - contiene la carpeta con el codigo de la aplicación y el archivo docker-compose.yml.
-    Carpeta appcode - contiene el codigo completo de nuestra aplicación.
+Folder web - contains the folder with our main code and the docker-compose.yml file.
+    Folder appcode - contains the main code from our web app.
+
     docker-compose.yml - 
-    1. Se refiere a la versión del formato de nuestro archivo en este caso tenemos la versión 3.1, no todas las versiones son compatibles con todos los engines de docker.
 
-    2. Salto de línea para indicar separación de conceptos.
+    1. Refers to the docker-compose format version, in this case we are using the version 3.1, not all versions of docker-compose are compatible with every docker engine version.
 
-    3. Marcar donde esta iniciando la declaración de nuestros servicios.
+    2. Line skip just for separating.
 
-    4. Nombre que le asignamos a nuestra aplicación y abrimos espacio para definir sus componentes (Tiene un espacio de identación debido a que pertenece a la sección de services).
+    3. Here begins the declaration of our services inside the container.
 
-    5. Imagen para la aplicación web que utilizara el contenedor, en este caso se esta utilizando webdevops/php-apache:7.4 (Tiene dos espacios de identación debido a que pertenece a la sección de measurmentapp).
+    4. Name given to our WEB app and we open the space to define its components (One identation space due to it belonging to the services section).
 
-    6. Indica que el contenedor va a reiniciarse si se detiene, en caso de que se detenga de manera manual por el usuario, se reiniciara hasta que docker se vuelva a correr o se reinicie de manera manual (Tiene dos espacios de identación debido a que pertenece a la sección de measurmentapp).
+    5. Image for the WEB app we will be using in the conteiner, in this case we are using webdevops/php-apache:7.4 (Two identation spaces due to it belonging to the measurmetapp section).
 
-    7. Inicia la sección para definir variables de entorno (Tiene dos espacios de identación debido a que pertenece a la sección de measurmentapp).
+    6. Indicates that the container will restar in case of failing or restarting docker, if the user turns it off it won´t restart unless the user turns it back on or docker restarts (Two identation spaces due to it belonging to the measurmetapp section.
 
-    8. Variable de entorno que originalmente su valor se encuentra en 0 (false), la colocamos en 1 (true) para que nos muestre los errores que haya en la aplicación web (Tiene tres espacios de identación debido a que pertenece a la sección de enviroment).
+    7. Here begins the declaration for our environment variables (Two identation spaces due to it belonging to the measurmentapp section).
 
-    9. Inicia la sección para asignar el puerto que se va a utilizar (Tiene dos espacios de identación debido a que pertenece a la sección de measurmentapp).
+    8. Environment variable with the original value of 0 (false), we are using the value of 1 (true) for it to show us the errors that occure in our WEB app (Three identation spaces due to it belonging to the environment section).
 
-    10. En la izquiera se ubica el puerto del host y a la derecha se encuentra el puerto del contenedor (Tiene tres espacios de identación debido a que pertenece a la sección de ports).
+    9. Here begins the decalration of our container´s port (Two identation spaces due to it belonging to the measurmentapp section).
 
-    11. Inicia la sección en la cual se vincularán las carpetas de los volumenes (Tiene dos espacios de identación debido a que pertenece a la sección de measurmentapp).
+    10. In the left side we have the host´s port, and on the right side we have our containers port (Three identation spaces due to it belonging to the ports section).
 
-    12. En este caso queremos que la carpeta appcode se sincronice con la carpeta /app dentro de nuestro contenedor, para que se pueda identificar cual es nuestro codigo fuente (Tiene tres espacios de identación debido a que pertenece a la sección de volumes).
+    11. Here begins the section in which we link the folders in our host with the ones in our container, which is called volumes (Two identation spaces due to it belonging to the measurmentapp section).
+
+    12. In this case we want our appcode folder to be in sync with the /app folder inside our container so that it can identify where ir our app´s main code (Three identation spaces due to it belonging to the volumes section).
     
-Descripción del contenedor: Aplicación web programada en php, esta aplicación se utiliza para convertir medidas generales a sus equivalentes en otra medida, el contenedor utiliza la imagen webdevops/php-apache:7.4 y al correrlo se puede entrar de cualquier navegador.
+Container´s description: WEB app programmed in php, this app is used to convert general measures to their equivalent in another measurment unit. This container contains the image webdevops/php-apache:7.4, and while running it we can acces to the web app from any web browser.
 
